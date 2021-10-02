@@ -32,7 +32,7 @@ f = open("Message.txt", "w")
 f.write("There are " + str(total_confirmed) + " Confirmed cases")
 f.close
 
-Numbers = ["O718799611", "O718800275"]
+Numbers = Input()
 N = open("numbers.txt", "w")
 N.write(str(Numbers))
 N.close
